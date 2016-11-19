@@ -8,6 +8,14 @@ background: white;
 color: black;
 }
 
+.footer-paragraph{
+  color: white;
+}
+
+nav .horizontal{
+  display: inline-block;;
+}
+
 .alt-link a:link {
   color:black;
 }
@@ -43,18 +51,11 @@ text-align: left;
  .clearfix {
    display: inline-block;
  }
-
- /*.horizontal {
+ .horizontal {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}*/
+    display: inline;
+}
 
-/*.horizontal2 {
-    float: left;
-}*/
 
 
 .col-1-3{
@@ -73,10 +74,6 @@ text-align: left;
      height: 0;
      }
 
-
-/*alt-link a:link{
-  color: white;
-}*/
 
 
 article p{
@@ -98,9 +95,6 @@ margin: 0 auto;
    color: #45a2da;
  }
 
- /*header a{
-   color: black;
- }*/
 
  header li:hover{
    color: #45a2da;
@@ -131,9 +125,6 @@ font-weight: 400;
 text-transform: uppercase;
  }
 
- /*nav{
-   text-align: right;
- }*/
 
  footer aside h3{
    color:  #848484;
